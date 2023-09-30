@@ -1,5 +1,5 @@
 a=4
-b=50
+b=5
 
 a+b=c
 print(c)
