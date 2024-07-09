@@ -1,0 +1,15 @@
+# Get person's name and year of birth
+name = input("Enter person's name: ")
+year_of_birth = int(input("Enter year of birth: "))
+# Calculate age
+current_year = 2023 # Replace with current year
+age = current_year - year_of_birth
+# Determine if person is a senior citizen
+is_senior_citizen = (age >= 60)
+# Display results
+print("Name:", name)
+print("Age:", age)
+if is_senior_citizen:
+ print("This person is a senior citizen.")
+else:
+ print("This person is not a senior citizen.")
